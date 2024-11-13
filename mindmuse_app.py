@@ -2,18 +2,24 @@ import streamlit as st
 from gtts import gTTS
 import base64
 import os
+import random
+
 
 # Flashcard Data with Language Attribute
 flashcards = [
-    {"question": "What is the capital of France?", "answer": "Paris", "language": "en"},
-    {"question": "What is the square root of 16?", "answer": "4", "language": "en"},
-    {"question": "Who wrote 'Romeo and Juliet'?", "answer": "William Shakespeare", "language": "en"},
-    {"question": "தமிழில் 'Hello' என்பதற்கான வார்த்தை?", "answer": "வணக்கம்", "language": "ta"},
-    {"question": "தமிழில் 'Thank you' என்பதற்கான வார்த்தை?", "answer": "நன்றி", "language": "ta"},
-    {"question": "தமிழில் 'Cat' என்பதற்கான வார்த்தை?", "answer": "பூனை", "language": "ta"},
-    {"question": "தமிழில் 'Apple' என்பதற்கான வார்த்தை?", "answer": "ஆப்பிள்", "language": "ta"},
-    {"question": "'How are you?' தமிழ் மொழியில் என்ன?", "answer": "நீங்கள் எப்படி இருக்கிறீர்கள்?", "language": "ta"},
+    {"question": "Muses are getting warmed up", "answer": "Welcome!", "language": "en", "category": "Welcome"},
+    {"question": "தமிழில் 'Hello' என்பதற்கான வார்த்தை?", "answer": "வணக்கம்", "phonetic_answer": "Vanakkam", "language": "ta", "category": "Tamil Language"},
+    {"question": "தமிழில் 'Thank you' என்பதற்கான வார்த்தை?", "answer": "நன்றி", "phonetic_answer": "Nandri", "language": "ta", "category": "Tamil Language"},
+    {"question": "தமிழில் 'Cat' என்பதற்கான வார்த்தை?", "answer": "பூனை", "phonetic_answer": "Poonai", "language": "ta", "category": "Tamil Language"},
+    {"question": "தமிழில் 'Apple' என்பதற்கான வார்த்தை?", "answer": "ஆப்பிள்", "phonetic_answer": "Appil", "language": "ta", "category": "Tamil Language"},
+    {"question": "'How are you?' தமிழ் மொழியில் என்ன?", "answer": "நீங்கள் எப்படி இருக்கிறீர்கள்?", "phonetic_answer": "Neengal eppadi irukeergal?", "language": "ta", "category": "Tamil Language"},
+    {"question": "தமிழில் 'Good night' என்பதற்கான வார்த்தை?", "answer": "இனிய இரவு", "phonetic_answer": "Iniya Iravu", "language": "ta", "category": "Tamil Language"},
+    {"question": "தமிழில் 'Water' என்பதற்கான வார்த்தை?", "answer": "தண்ணீர்", "phonetic_answer": "Thanneer", "language": "ta", "category": "Tamil Language"},
+    {"question": "தமிழில் 'Friend' என்பதற்கான வார்த்தை?", "answer": "நண்பர்", "phonetic_answer": "Nanbar", "language": "ta", "category": "Tamil Language"},
 ]
+# Shuffle the flashcards for random order
+#random.shuffle(flashcards)
+
 
 # Initialize Session State
 if "index" not in st.session_state:
@@ -87,7 +93,9 @@ if not st.session_state.show_answer:
         show_answer()
         st.rerun()
 else:
-    st.write(f"**Answer:** {current_card['answer']}")
+    st.markdown(f"<h2 style='font-size: 32px; font-weight: bold; color: #333;'>{current_card['answer']}</h2>", unsafe_allow_html=True)
+    if "phonetic_answer" in current_card:
+        st.markdown(f"<h3 style='font-size: 48px; font-weight: bold; color: #555;'>{current_card['phonetic_answer']}</h3>", unsafe_allow_html=True)
     #answer_audio = play_audio(current_card["answer"])
     #st.audio(answer_audio)
     answer_audio_file = generate_audio(current_card["answer"], "answer.mp3", current_card["language"])
