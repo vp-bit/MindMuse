@@ -102,7 +102,7 @@ st.subheader(current_card["question"])
 
 
 if not st.session_state.show_answer:
-    if st.button("Get Started" if st.session_state.index == 0 else "Short Answer"):
+    if st.button("Get Started" if st.session_state.index == 0 else "Show Answer"):
             show_answer()
             st.rerun()
 else:
