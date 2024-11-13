@@ -40,8 +40,9 @@ def next_flashcard_rnd():
     st.session_state.completed_indices.append(st.session_state.index)
 
     # Check if all flashcards have been shown
-    if len(st.session_state.completed_indices) == len(flashcards):
+    if len(st.session_state.completed_indices) == len(flashcards) - 1:
         st.session_state.completed_indices = []  # Reset when all are completed
+        st.session_state.completed_indices.append(0)
 
     # Select a new random index that hasn’t been shown yet
     remaining_indices = [i for i in range(len(flashcards)) if i not in st.session_state.completed_indices]
@@ -101,9 +102,9 @@ st.subheader(current_card["question"])
 
 
 if not st.session_state.show_answer:
-    if st.button("Show Answer"):
-        show_answer()
-        st.rerun()
+    if st.button("Get Started" if st.session_state.index == 0 else "Short Answer"):
+            show_answer()
+            st.rerun()
 else:
     st.markdown(f"<h2 style='font-size: 32px; font-weight: bold; color: #333;'>{current_card['answer']}</h2>", unsafe_allow_html=True)
     if "phonetic_answer" in current_card:
@@ -125,4 +126,4 @@ if st.session_state.show_answer and os.path.exists("question.mp3"):
     os.remove("question.mp3")
 
 # Footer
-st.write("Powered by MindMuse: Inspired by Athena and the Muses")
+st.write("Powered by MindMuse: Inspired by Atheena and the Muses")

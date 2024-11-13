@@ -39,5 +39,132 @@
         "phonetic_answer": "Neengal eppadi irukeergal?",
         "language": "ta",
         "category": "Tamil Language"
+    },
+    {
+        "question": "நீங்கள் எங்கே செல்கிறீர்கள்?",
+        "answer": "Where are you going?",
+        "phonetic_answer": "Neengal enge selgirirgal?",
+        "language": "ta",
+        "category": "Tamil Language"
+    },
+    {
+        "question": "என்ன செய்ய வேண்டும்?",
+        "answer": "What should I do?",
+        "phonetic_answer": "Enna seiya vendum?",
+        "language": "ta",
+        "category": "Tamil Language"
+    },
+    {
+        "question": "நீங்கள் எங்கே இருந்து வருகிறீர்கள்?",
+        "answer": "Where are you from?",
+        "phonetic_answer": "Neengal enge irundhu varugirirgal?",
+        "language": "ta",
+        "category": "Tamil Language"
+    },
+    {
+        "question": "இது எவ்வளவு?",
+        "answer": "How much is this?",
+        "phonetic_answer": "Ithu evvalavu?",
+        "language": "ta",
+        "category": "Tamil Language"
+    },
+    {
+        "question": "உதவி செய்ய முடியுமா?",
+        "answer": "Can you help me?",
+        "phonetic_answer": "Udhavi seiya mudiyuma?",
+        "language": "ta",
+        "category": "Tamil Language"
+    },
+    {
+        "question": "நீங்கள் எப்படி இருக்கிறீர்கள்?",
+        "answer": "How are you?",
+        "phonetic_answer": "Neengal eppadi irukeergal?",
+        "language": "ta",
+        "category": "Tamil Language"
+    },
+    {
+        "question": "உங்கள் பெயர் என்ன?",
+        "answer": "What is your name?",
+        "phonetic_answer": "Ungal peyar enna?",
+        "language": "ta",
+        "category": "Tamil Language"
+    },
+    {
+        "question": "நான் உங்களை சந்திக்க மகிழ்ச்சி.",
+        "answer": "Nice to meet you.",
+        "phonetic_answer": "Naan ungalai sandhikka magilchi.",
+        "language": "ta",
+        "category": "Tamil Language"
+    },
+    {
+        "question": "மன்னிக்கவும்.",
+        "answer": "I’m sorry.",
+        "phonetic_answer": "Mannikkavum.",
+        "language": "ta",
+        "category": "Tamil Language"
+    },
+    {
+        "question": "சாப்பாடு ருசியானது.",
+        "answer": "The food is delicious.",
+        "phonetic_answer": "Saapadu rusiyaanadhu.",
+        "language": "ta",
+        "category": "Tamil Language"
+    },
+    {
+        "question": "நான் தமிழ் பேச விரும்புகிறேன்.",
+        "answer": "I want to speak Tamil.",
+        "phonetic_answer": "Naan Tamil pesa virumbugiren.",
+        "language": "ta",
+        "category": "Tamil Language"
+    },
+    {
+        "question": "நீங்கள் தமிழ் பேசுவீர்களா?",
+        "answer": "Do you speak Tamil?",
+        "phonetic_answer": "Neengal Tamil pesuveergala?",
+        "language": "ta",
+        "category": "Tamil Language"
+    },
+    {
+        "question": "நாளை சந்திப்போம்.",
+        "answer": "See you tomorrow.",
+        "phonetic_answer": "Naalai sandhippom.",
+        "language": "ta",
+        "category": "Tamil Language"
+    },
+    {
+        "question": "நான் இந்த இடத்தை விரும்புகிறேன்.",
+        "answer": "I like this place.",
+        "phonetic_answer": "Naan indha idathai virumbugiren.",
+        "language": "ta",
+        "category": "Tamil Language"
+    },
+    {
+        "question": "எனக்கு புரியவில்லை.",
+        "answer": "I don’t understand.",
+        "phonetic_answer": "Enakku puriyavillai.",
+        "language": "ta",
+        "category": "Tamil Language"
+    },
+    {
+        "question": "நான் தமிழில் எழுத முயற்சிக்கிறேன்.",
+        "answer": "I’m trying to write in Tamil.",
+        "phonetic_answer": "Naan Tamilil ezhutha muyarchikkiren.",
+        "language": "ta",
+        "category": "Tamil Language"
+    },
+    {
+        "question": "எங்கள் குடும்பம் பெரியது.",
+        "answer": "Our family is big.",
+        "phonetic_answer": "Engal kudumbam periyadhu.",
+        "language": "ta",
+        "category": "Tamil Language"
+    },
+        {
+        "question": "இங்கே வெயில் மிக அதிகம்.",
+        "answer": "It’s very sunny here.",
+        "phonetic_answer": "Inge veyil miga adigam.",
+        "language": "ta",
+        "category": "Tamil Language"
     }
+
 ]
