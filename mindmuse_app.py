@@ -2,32 +2,28 @@ import streamlit as st
 from gtts import gTTS
 import base64
 import os
+import json
 import random
 
+# Load flashcards from JSON file
+with open("flashcards.json", "r", encoding="utf-8") as f:
+    flashcards = json.load(f)
 
-# Flashcard Data with Language Attribute
-flashcards = [
-    {"question": "Muses are getting warmed up", "answer": "Welcome!", "language": "en", "category": "Welcome"},
-    {"question": "தமிழில் 'Hello' என்பதற்கான வார்த்தை?", "answer": "வணக்கம்", "phonetic_answer": "Vanakkam", "language": "ta", "category": "Tamil Language"},
-    {"question": "தமிழில் 'Thank you' என்பதற்கான வார்த்தை?", "answer": "நன்றி", "phonetic_answer": "Nandri", "language": "ta", "category": "Tamil Language"},
-    {"question": "தமிழில் 'Cat' என்பதற்கான வார்த்தை?", "answer": "பூனை", "phonetic_answer": "Poonai", "language": "ta", "category": "Tamil Language"},
-    {"question": "தமிழில் 'Apple' என்பதற்கான வார்த்தை?", "answer": "ஆப்பிள்", "phonetic_answer": "Appil", "language": "ta", "category": "Tamil Language"},
-    {"question": "'How are you?' தமிழ் மொழியில் என்ன?", "answer": "நீங்கள் எப்படி இருக்கிறீர்கள்?", "phonetic_answer": "Neengal eppadi irukeergal?", "language": "ta", "category": "Tamil Language"},
-    {"question": "தமிழில் 'Good night' என்பதற்கான வார்த்தை?", "answer": "இனிய இரவு", "phonetic_answer": "Iniya Iravu", "language": "ta", "category": "Tamil Language"},
-    {"question": "தமிழில் 'Water' என்பதற்கான வார்த்தை?", "answer": "தண்ணீர்", "phonetic_answer": "Thanneer", "language": "ta", "category": "Tamil Language"},
-    {"question": "தமிழில் 'Friend' என்பதற்கான வார்த்தை?", "answer": "நண்பர்", "phonetic_answer": "Nanbar", "language": "ta", "category": "Tamil Language"},
-]
 # Shuffle the flashcards for random order
 #random.shuffle(flashcards)
 
 
 # Initialize Session State
 if "index" not in st.session_state:
+    #st.session_state.index = random.randint(0, len(flashcards) - 1)
     st.session_state.index = 0
 if "show_answer" not in st.session_state:
     st.session_state.show_answer = False
 if "question_played" not in st.session_state:
     st.session_state.question_played = False
+if "completed_indices" not in st.session_state:
+    st.session_state.completed_indices = []
+
 
 
 # Callback Functions
@@ -38,6 +34,21 @@ def next_flashcard():
     st.session_state.index = (st.session_state.index + 1) % len(flashcards)
     st.session_state.show_answer = False
     st.session_state.question_played = False
+
+def next_flashcard_rnd():
+    # Add current index to completed indices
+    st.session_state.completed_indices.append(st.session_state.index)
+
+    # Check if all flashcards have been shown
+    if len(st.session_state.completed_indices) == len(flashcards):
+        st.session_state.completed_indices = []  # Reset when all are completed
+
+    # Select a new random index that hasn’t been shown yet
+    remaining_indices = [i for i in range(len(flashcards)) if i not in st.session_state.completed_indices]
+    st.session_state.index = random.choice(remaining_indices)
+    st.session_state.show_answer = False
+    st.session_state.question_played = False
+    st.rerun()
 
 
 def play_audio(text):
@@ -66,6 +77,7 @@ def get_audio_html(file_path):
 
 
 # App Title
+current_card = flashcards[st.session_state.index]
 st.title("MindMuse: Your Learning Companion")
 
 # Sidebar for Navigation (we can expand this later)
@@ -103,7 +115,7 @@ else:
     st.markdown(answer_audio_html, unsafe_allow_html=True)
 
     if st.button("Next"):
-        next_flashcard()
+        next_flashcard_rnd()
         st.rerun()
 
 # Cleanup audio files after use

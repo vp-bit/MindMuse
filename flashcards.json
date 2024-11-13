@@ -1,0 +1,43 @@
+[
+    {
+        "question": "Muses are getting warmed up",
+        "answer": "Welcome!",
+        "language": "en",
+        "category": "Intro"
+    },
+     {
+        "question": "தமிழில் 'Hello' என்பதற்கான வார்த்தை?",
+        "answer": "வணக்கம்",
+        "phonetic_answer": "Vanakkam",
+        "language": "ta",
+        "category": "Tamil Language"
+    },
+    {
+        "question": "தமிழில் 'Thank you' என்பதற்கான வார்த்தை?",
+        "answer": "நன்றி",
+        "phonetic_answer": "Nandri",
+        "language": "ta",
+        "category": "Tamil Language"
+    },
+    {
+        "question": "தமிழில் 'Cat' என்பதற்கான வார்த்தை?",
+        "answer": "பூனை",
+        "phonetic_answer": "Poonai",
+        "language": "ta",
+        "category": "Tamil Language"
+    },
+    {
+        "question": "தமிழில் 'Apple' என்பதற்கான வார்த்தை?",
+        "answer": "ஆப்பிள்",
+        "phonetic_answer": "Appil",
+        "language": "ta",
+        "category": "Tamil Language"
+    },
+    {
+        "question": "'How are you?' தமிழ் மொழியில் என்ன?",
+        "answer": "நீங்கள் எப்படி இருக்கிறீர்கள்?",
+        "phonetic_answer": "Neengal eppadi irukeergal?",
+        "language": "ta",
+        "category": "Tamil Language"
+    }
+]
