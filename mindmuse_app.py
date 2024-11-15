@@ -100,6 +100,7 @@ selected_levels = st.sidebar.selectbox("Choose your Level", st.session_state.lev
 if st.sidebar.button("Select Content"):
     #selected_categories = st.sidebar.selectbox("Choose a Category")
     loadcards(selected_categories,selected_sources,selected_levels)
+    st.rerun()
 
 
 
@@ -116,6 +117,8 @@ else:
         st.markdown(question_audio_html, unsafe_allow_html=True)
         st.session_state.question_played = True
     st.subheader(current_card["question"])
+    question_audio = play_audio(current_card["question"])
+    st.audio(question_audio)
 
 
 
@@ -132,8 +135,8 @@ else:
     st.markdown(f"<h2 style='font-size: 32px; font-weight: bold; color: #333;'>{current_card['answer']}</h2>", unsafe_allow_html=True)
     if "phonetic_answer" in current_card:
         st.markdown(f"<h3 style='font-size: 48px; font-weight: bold; color: #555;'>{current_card['phonetic_answer']}</h3>", unsafe_allow_html=True)
-    #answer_audio = play_audio(current_card["answer"])
-    #st.audio(answer_audio)
+    answer_audio = play_audio(current_card["answer"])
+    st.audio(answer_audio)
     answer_audio_file = generate_audio(current_card["answer"], "answer.mp3", current_card["language"])
     answer_audio_html = get_audio_html(answer_audio_file)
     st.markdown(answer_audio_html, unsafe_allow_html=True)

@@ -224,7 +224,7 @@
     },
     {
         "question": "What is Prompt Engineering?",
-        "answer": "Prompt Engineering is the process of designing and refining input prompts to guide the output of a language model effectively.",
+        "answer": "Prompt Engineering is the process of designing, and refining, input prompts to effectively guide the output of a generative AI model.",
         "language": "en",
         "category": "GenAI",
         "source": "Nui",
@@ -232,7 +232,7 @@
     },
     {
         "question": "What is Zero-Shot Learning?",
-        "answer": "Zero-Shot Learning is the ability of a model to make predictions on tasks it was not explicitly trained on by leveraging its general knowledge.",
+        "answer": "Zero-shot prompting is a machine learning technique that allows an AI model to perform tasks without specific training examples.",
         "language": "en",
         "category": "GenAI",
         "source": "Nui",
@@ -255,8 +255,8 @@
         "level": "Easy"
     },
     {
-        "question": "What is Reinforcement Learning?",
-        "answer": "Reinforcement Learning is a type of machine learning where an agent learns to make decisions by receiving rewards or penalties based on its actions.",
+        "question": "What is Reinforcement Learning (RL)?",
+        "answer": "Reinforcement learning is a machine learning technique that trains software to make decisions to achieve the most optimal results.",
         "language": "en",
         "category": "GenAI",
         "source": "Nui",
@@ -272,7 +272,7 @@
     },
     {
         "question": "What is Inference in AI?",
-        "answer": "Inference is the process of using a trained model to make predictions or generate output based on new input data.",
+        "answer": "Inference is the process of running live data through a trained AI model to make a prediction or solve a task.",
         "language": "en",
         "category": "GenAI",
         "source": "Nui",
