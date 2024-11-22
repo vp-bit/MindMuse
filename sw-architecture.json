@@ -1,0 +1,137 @@
+[
+    {
+        "question": "What is the Single Responsibility Principle in software architecture?",
+        "answer": "A class or component should have only one reason to change, meaning it should have only one job or responsibility.",
+        "phonetic_answer": "Single Responsibility: One job, one change.",
+        "category": "Software Architecture Best Practices",
+        "level": "Beginner",
+        "source": "Nui",
+        "language": "en"
+    },
+    {
+        "question": "What does the Open/Closed Principle state?",
+        "answer": "Software entities should be open for extension but closed for modification.",
+        "phonetic_answer": "Extend but don\u2019t modify.",
+        "category": "Software Architecture Best Practices",
+        "level": "Intermediate",
+        "source": "Nui",
+        "language": "en"
+    },
+    {
+        "question": "Explain the concept of Loose Coupling.",
+        "answer": "Loose coupling reduces dependencies between components, making the system more flexible and easier to maintain.",
+        "phonetic_answer": "Less dependence, more flexibility.",
+        "category": "Software Architecture Best Practices",
+        "level": "Intermediate",
+        "source": "Nui",
+        "language": "en"
+    },
+    {
+        "question": "What is Separation of Concerns?",
+        "answer": "Dividing a program into distinct features that overlap in functionality as little as possible.",
+        "phonetic_answer": "Keep tasks separate.",
+        "category": "Software Architecture Best Practices",
+        "level": "Advanced",
+        "source": "Nui",
+        "language": "en"
+    },
+    {
+        "question": "What is the Microservices Architecture pattern?",
+        "answer": "A design pattern where an application is composed of small, independent services that communicate over a network.",
+        "phonetic_answer": "Small services, big impact.",
+        "category": "Software Architecture Best Practices",
+        "level": "Advanced",
+        "source": "Nui",
+        "language": "en"
+    },
+    {
+        "question": "What does Scalability mean in software architecture?",
+        "answer": "The ability of a system to handle increased load by adding resources.",
+        "phonetic_answer": "Can grow with demand.",
+        "category": "Software Architecture Best Practices",
+        "level": "Beginner",
+        "source": "Nui",
+        "language": "en"
+    },
+    {
+        "question": "What is the CAP Theorem?",
+        "answer": "The CAP theorem states that in a distributed system, you can have only two out of three guarantees: Consistency, Availability, and Partition Tolerance.",
+        "phonetic_answer": "Pick two: Consistency, Availability, or Partition Tolerance.",
+        "category": "Software Architecture Best Practices",
+        "level": "Advanced",
+        "source": "Nui",
+        "language": "en"
+    },
+    {
+        "question": "What is Caching, and why is it used?",
+        "answer": "Caching stores frequently accessed data in a temporary storage location for faster retrieval, improving performance.",
+        "phonetic_answer": "Store it fast, get it faster.",
+        "category": "Software Architecture Best Practices",
+        "level": "Intermediate",
+        "source": "Nui",
+        "language": "en"
+    },
+    {
+        "question": "Describe the concept of Failover.",
+        "answer": "Failover is the process of automatically switching to a backup system when the primary one fails.",
+        "phonetic_answer": "Switch on failure.",
+        "category": "Software Architecture Best Practices",
+        "level": "Intermediate",
+        "source": "Nui",
+        "language": "en"
+    },
+    {
+        "question": "What is API Gateway in microservices architecture?",
+        "answer": "An API Gateway acts as a single entry point for all client requests, routing them to the appropriate microservice.",
+        "phonetic_answer": "One door to many services.",
+        "category": "Software Architecture Best Practices",
+        "level": "Advanced",
+        "source": "Nui",
+        "language": "en"
+    },
+    {
+        "question": "What is a Tech Stack?",
+        "answer": "A combination of programming languages, frameworks, and tools used to build a software application.",
+        "phonetic_answer": "Tools to build software.",
+        "category": "Tech Stack Concepts",
+        "level": "Beginner",
+        "source": "Nui",
+        "language": "en"
+    },
+    {
+        "question": "What is the difference between Front-end and Back-end?",
+        "answer": "Front-end is the client-side interface users interact with, while back-end is the server-side logic and database handling.",
+        "phonetic_answer": "Front: user view, Back: server logic.",
+        "category": "Tech Stack Concepts",
+        "level": "Beginner",
+        "source": "Nui",
+        "language": "en"
+    },
+    {
+        "question": "What is CI/CD in DevOps?",
+        "answer": "CI/CD stands for Continuous Integration and Continuous Deployment, automating code integration, testing, and deployment.",
+        "phonetic_answer": "Automate code build and release.",
+        "category": "Tech Stack Concepts",
+        "level": "Intermediate",
+        "source": "Nui",
+        "language": "en"
+    },
+    {
+        "question": "What is Infrastructure as Code (IaC)?",
+        "answer": "IaC is the practice of managing and provisioning computing infrastructure using machine-readable configuration files.",
+        "phonetic_answer": "Code controls infrastructure.",
+        "category": "Tech Stack Concepts",
+        "level": "Intermediate",
+        "source": "Nui",
+        "language": "en"
+    },
+    {
+        "question": "What is Containerization?",
+        "answer": "Containerization packages an application and its dependencies into a container, allowing it to run consistently across different environments.",
+        "phonetic_answer": "Package it to run anywhere.",
+        "category": "Tech Stack Concepts",
+        "level": "Advanced",
+        "source": "Nui",
+        "language": "en"
+    }
+]

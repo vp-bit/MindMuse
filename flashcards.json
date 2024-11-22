@@ -1,6 +1,7 @@
 [
      {
         "question": "தமிழில் 'Hello' என்பதற்கான வார்த்தை?",
+        "phrase": "Hello",
         "answer": "வணக்கம்",
         "phonetic_answer": "Vanakkam",
         "language": "ta",
@@ -10,6 +11,7 @@
     },
     {
         "question": "தமிழில் 'Thank you' என்பதற்கான வார்த்தை?",
+        "phrase": "Thank you",
         "answer": "நன்றி",
         "phonetic_answer": "Nandri",
         "language": "ta",
@@ -19,6 +21,7 @@
     },
     {
         "question": "தமிழில் 'Cat' என்பதற்கான வார்த்தை?",
+        "phrase": "Cat",
         "answer": "பூனை",
         "phonetic_answer": "Poonai",
         "language": "ta",
@@ -28,6 +31,7 @@
 },
     {
         "question": "தமிழில் 'Apple' என்பதற்கான வார்த்தை?",
+        "phrase": "Apple",
         "answer": "ஆப்பிள்",
         "phonetic_answer": "Appil",
         "language": "ta",
@@ -37,6 +41,7 @@
 },
     {
         "question": "'How are you?' தமிழ் மொழியில் என்ன?",
+        "phrase": "'How are you?",
         "answer": "நீங்கள் எப்படி இருக்கிறீர்கள்?",
         "phonetic_answer": "Neengal eppadi irukeergal?",
         "language": "ta",
