@@ -1,0 +1,227 @@
+[
+    {
+        "question": "How do you say 'Hello' in Arabic?",
+        "answer": "Marhaba",
+        "phonetic_answer": "Mar-ha-ba",
+        "category": "Basic Greetings",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    },
+    {
+        "question": "How do you say 'Good morning' in Arabic?",
+        "answer": "Sabah al khair",
+        "phonetic_answer": "Sa-bah al khair",
+        "category": "Basic Greetings",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    },
+    {
+        "question": "How do you say 'Good evening' in Arabic?",
+        "answer": "Masa al khair",
+        "phonetic_answer": "Ma-sa al khair",
+        "category": "Basic Greetings",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    },
+    {
+        "question": "How do you say 'Goodbye' in Arabic?",
+        "answer": "Ma'assalama",
+        "phonetic_answer": "Ma-as-sa-la-ma",
+        "category": "Basic Greetings",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    },
+    {
+        "question": "How do you say 'Thank you' in Arabic?",
+        "answer": "Shukran",
+        "phonetic_answer": "Shook-ran",
+        "category": "Basic Courtesies",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    },
+    {
+        "question": "How do you say 'Please' in Arabic?",
+        "answer": "Min fadlak (to a male) / Min fadlik (to a female)",
+        "phonetic_answer": "Min fad-lak / Min fad-lik",
+        "category": "Basic Courtesies",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    },
+    {
+        "question": "How do you say 'Yes' in Arabic?",
+        "answer": "Na'am",
+        "phonetic_answer": "Na-am",
+        "category": "Basic Responses",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    },
+    {
+        "question": "How do you say 'No' in Arabic?",
+        "answer": "Laa",
+        "phonetic_answer": "Laa",
+        "category": "Basic Responses",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    },
+    {
+        "question": "How do you say 'Excuse me' in Arabic?",
+        "answer": "Afwan",
+        "phonetic_answer": "Af-wan",
+        "category": "Basic Courtesies",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    },
+    {
+        "question": "How do you say 'I'm sorry' in Arabic?",
+        "answer": "Ana asif (to a male) / Ana asifa (to a female)",
+        "phonetic_answer": "Ana a-sif / Ana a-si-fa",
+        "category": "Basic Courtesies",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    },
+    {
+        "question": "How do you say 'Where is the bathroom?' in Arabic?",
+        "answer": "Ayna al hamam?",
+        "phonetic_answer": "Ay-na al ha-mam?",
+        "category": "Directions",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    },
+    {
+        "question": "How do you say 'How much does this cost?' in Arabic?",
+        "answer": "Kam thaman hadha?",
+        "phonetic_answer": "Kam tha-man ha-dha?",
+        "category": "Shopping",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    },
+    {
+        "question": "How do you say 'I want this' in Arabic?",
+        "answer": "Urid hatha",
+        "phonetic_answer": "Oo-reed ha-tha",
+        "category": "Shopping",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    },
+    {
+        "question": "How do you say 'Do you speak English?' in Arabic?",
+        "answer": "Hal tatakallam al englezi?",
+        "phonetic_answer": "Hal ta-ta-kal-lam al en-glee-zi?",
+        "category": "Basic Questions",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    },
+    {
+        "question": "How do you say 'I need help' in Arabic?",
+        "answer": "Ana ahtaj musa'ada",
+        "phonetic_answer": "Ana ah-taj moo-sa-a-da",
+        "category": "Emergency",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    },
+    {
+        "question": "How do you say 'Where is the nearest hospital?' in Arabic?",
+        "answer": "Ayna aqrab mustashfa?",
+        "phonetic_answer": "Ay-na ak-rab moos-tash-fa?",
+        "category": "Emergency",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    },
+    {
+        "question": "How do you say 'Can you help me?' in Arabic?",
+        "answer": "Hal mumkin musa'adati?",
+        "phonetic_answer": "Hal mom-kin moo-sa-a-da-ti?",
+        "category": "Emergency",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    },
+    {
+        "question": "How do you say 'I don’t understand' in Arabic?",
+        "answer": "La afham",
+        "phonetic_answer": "La af-ham",
+        "category": "Basic Responses",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    },
+    {
+        "question": "How do you say 'Can I take a photo here?' in Arabic?",
+        "answer": "Hal yumkinuni tasweer huna?",
+        "phonetic_answer": "Hal yom-kee-noo-nee tas-weer hoo-na?",
+        "category": "Basic Questions",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    },
+    {
+        "question": "How do you say 'What time is it?' in Arabic?",
+        "answer": "Kam as-sa'ah?",
+        "phonetic_answer": "Kam as-sa-a?",
+        "category": "Basic Questions",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    },
+    {
+        "question": "How do you say 'I am lost' in Arabic?",
+        "answer": "Ana daie'",
+        "phonetic_answer": "Ana da-ee-a",
+        "category": "Emergency",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    },
+    {
+        "question": "How do you say 'Can I have the bill?' in Arabic?",
+        "answer": "Hal mumkin al-fatura?",
+        "phonetic_answer": "Hal mom-kin al fa-too-ra?",
+        "category": "Dining",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    },
+    {
+        "question": "How do you say 'Delicious' in Arabic?",
+        "answer": "Lazeez",
+        "phonetic_answer": "La-zeez",
+        "category": "Dining",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    },
+    {
+        "question": "How do you say 'I am vegetarian' in Arabic?",
+        "answer": "Ana nabati",
+        "phonetic_answer": "Ana na-ba-tee",
+        "category": "Dining",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    },
+    {
+        "question": "How do you say 'Cheers!' in Arabic?",
+        "answer": "Biseha!",
+        "phonetic_answer": "Bi-se-ha!",
+        "category": "Dining",
+        "level": "Beginner",
+        "source": "Travel Essentials",
+        "language": "ar"
+    }
+]

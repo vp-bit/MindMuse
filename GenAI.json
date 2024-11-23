@@ -1,0 +1,82 @@
+[
+    {
+        "question": "What is Generative AI?",
+        "answer": "Generative AI is a type of artificial intelligence that creates new content, such as text, images, or audio, based on learned patterns from training data.",
+        "language": "en",
+        "category": "GenAI",
+        "source": "Nui",
+        "level": "Easy"
+    },
+    {
+        "question": "What is a Large Language Model (LLM)?",
+        "answer": "A Large Language Model is a neural network model trained on vast amounts of text data to understand and generate human-like language.",
+        "language": "en",
+        "category": "GenAI",
+        "source": "Nui",
+        "level": "Medium"
+    },
+    {
+        "question": "What is Prompt Engineering?",
+        "answer": "Prompt Engineering is the process of designing, and refining, input prompts to effectively guide the output of a generative AI model.",
+        "language": "en",
+        "category": "GenAI",
+        "source": "Nui",
+        "level": "Medium"
+    },
+    {
+        "question": "What is Zero-Shot Learning?",
+        "answer": "Zero-shot prompting is a machine learning technique that allows an AI model to perform tasks without specific training examples.",
+        "language": "en",
+        "category": "GenAI",
+        "source": "Nui",
+        "level": "Hard"
+    },
+    {
+        "question": "What does 'Fine-Tuning' mean in AI?",
+        "answer": "Fine-Tuning is the process of adjusting a pre-trained model on a specific dataset to improve its performance on a particular task.",
+        "language": "en",
+        "category": "GenAI",
+        "source": "Nui",
+        "level": "Medium"
+    },
+    {
+        "question": "What is the difference between Supervised and Unsupervised Learning?",
+        "answer": "In Supervised Learning, the model learns from labeled data, while in Unsupervised Learning, it finds patterns and relationships in unlabeled data.",
+        "language": "en",
+        "category": "GenAI",
+        "source": "Nui",
+        "level": "Easy"
+    },
+    {
+        "question": "What is Reinforcement Learning (RL)?",
+        "answer": "Reinforcement learning is a machine learning technique that trains software to make decisions to achieve the most optimal results.",
+        "language": "en",
+        "category": "GenAI",
+        "source": "Nui",
+        "level": "Hard"
+    },
+    {
+        "question": "What is Transformer Architecture?",
+        "answer": "Transformer Architecture is a neural network design that uses self-attention mechanisms to process sequential data more efficiently, especially in NLP tasks.",
+        "language": "en",
+        "category": "GenAI",
+        "source": "Nui",
+        "level": "Hard"
+    },
+    {
+        "question": "What is Inference in AI?",
+        "answer": "Inference is the process of running live data through a trained AI model to make a prediction or solve a task.",
+        "language": "en",
+        "category": "GenAI",
+        "source": "Nui",
+        "level": "Easy"
+    },
+    {
+        "question": "What is a Language Model?",
+        "answer": "A Language Model is an AI model that predicts the next word or sequence of words in a sentence based on learned patterns in text data.",
+        "language": "en",
+        "category": "GenAI",
+        "source": "Nui",
+        "level": "Medium"
+    }
+]
