@@ -2,7 +2,6 @@ streamlit
 pandas
 numpy
 gtts
-io
 base64
 os
 json
