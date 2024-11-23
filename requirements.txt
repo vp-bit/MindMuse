@@ -2,7 +2,6 @@ streamlit
 pandas
 numpy
 gtts
-os
 json
 random
 tempfile
